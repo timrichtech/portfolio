@@ -11,7 +11,7 @@ const projects = [
   //   github: "#",
   // },
   {
-    title: "Leave Management System",
+    title: "Figma to react saas landing page",
     description:
       "A modern leave management application that allows employees to submit leave requests and administrators to review and manage them.",
     image: "../Media/pic.jpg",
@@ -23,8 +23,8 @@ const projects = [
     title: "Hotel & Restaurant Management",
     description:
       "A SaaS management platform designed to help hotels and restaurants manage operations, subscriptions, and business activities.",
-    image: "../Media/pic.jpg",
-    technologies: ["React", "JavaScript", "Tailwind CSS"],
+    image: "../Media/mom_and_child.jpg",
+    technologies: ["React", "JavaScript","Django"],
     live: "#",
     github: "#",
   },
@@ -125,7 +125,7 @@ function Projects() {
                       key={techIndex}
                       className="px-3 py-1 text-sm rounded-full
                                  bg-green-600 text-white
-                                 dark:bg-green-600 dark:text-white"
+                                 dark:bg-green-600 dark:text-white text-wrap"
                     >
                       {tech}
                     </span>
