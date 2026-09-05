@@ -30,7 +30,6 @@
     "lucide-react": "^1.23.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-fade-in": "^2.0.1",
     "react-hook-form": "^7.76.1",
     "react-hot-toast": "^2.6.0",
     "react-material-ui-carousel": "^3.4.2",
