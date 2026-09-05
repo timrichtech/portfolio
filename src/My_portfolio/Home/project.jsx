@@ -19,7 +19,7 @@ const projects = [
       "A modern responsive  saas landing page that allows customer to purchase a subscription, create an account for membership and view about the company.",
     image: saas,
     technologies: ["React", "JavaScript", "Material UI"],
-    live: "",
+    live: "https://hotma.netlify.app/",
     github: "#",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       "A SaaS management platform designed to help hotels and restaurants manage operations, subscriptions, and business activities.",
     image: photo,
     technologies: ["React", "JavaScript", "Django"],
-    live: "#",
+    live: "https://hotma.netlify.app/Dev",
     github: "#",
   },
   {
