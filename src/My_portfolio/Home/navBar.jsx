@@ -28,14 +28,14 @@ function NavBar() {
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-gray-200 bg-white/95 c dark:border-gray-800 dark:bg-[#070B22]/95">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="items-center flex h-16 max-w-7xl  justify-between px-4">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-green-600">
           <span className="text-green-600 font-bold font-">TRM</span>
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden items-center justify-end gap-8 md:flex">
           <Link
             className="font-medium text-white transition hover:text-green-600 dark:text-gray-200 dark:hover:text-blue-400"
             onClick={() => scrollToSection("home")}

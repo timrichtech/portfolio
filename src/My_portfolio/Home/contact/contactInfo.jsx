@@ -9,7 +9,7 @@ const ContactInfo = () => {
       index: 1,
       icon: <Email size={20} />,
       text: (
-        <a href="mailto:timrichardmax@gmail.com" className="text-gray-500">
+        <a href="mailto:timrichardmax@gmail.com" className="text-gray-500 overflow-hidden text-xs md:text-base">
           timrichardmax@gmail.com{" "}
         </a>
       ),
@@ -55,7 +55,7 @@ const ContactInfo = () => {
               className="flex items-center gap-x-8 text-center "
             >
               <span className="text-green-600">{info.icon}</span>
-              <div className="text-gray-500">{info.text}</div>
+              <div className="text-gray-500 "><p className="text-sm sm:text-lg">{info.text}</p></div>
             </motion.div>
           );
         })}

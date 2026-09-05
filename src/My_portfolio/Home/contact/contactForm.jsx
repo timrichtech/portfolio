@@ -35,20 +35,20 @@ function ContactForm() {
   };
 
   return (
-    <section id="contact" className=" bg-transparent pl-2 py-3 sm:px-3 sm:py-6">
+    <section id="contact" className=" bg-transparent pr-2 py-3 sm:px-3 md:py-6">
       <div className=" mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-2 sm:mb-4">
           Contact Me
         </h2>
 
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-5">
+        <p className="text-center text-wrap text-gray-600 dark:text-gray-300 mb-5">
           Have a project or opportunity? Send me a message.
         </p>
 
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="bg-white dark:bg-gray-900 sm:p-8 p-3 rounded-2xl shadow-lg"
+          className="bg-white dark:bg-gray-900 sm:px-4 md:p-x8 px-1 rounded-2xl shadow-lg"
         >
           {/* Name */}
           <div className="mb-5">
@@ -67,7 +67,7 @@ function ContactForm() {
 
           {/* Email */}
           <div className="mb-2 sm:mb-5">
-            <label className="block mb-2 font-medium text-gray-700 dark:text-gray-200">
+            <label className="block mb-1 font-medium text-gray-700 dark:text-gray-200">
               Email Address
             </label>
 
@@ -76,7 +76,7 @@ function ContactForm() {
               name="from_email"
               placeholder="example@gmail.com"
               required
-              className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
+              className="w-full px-2 sm:px-4 py-1.5 sm:py-3 border border-gray-300 dark:border-gray-700 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
             />
           </div>
 

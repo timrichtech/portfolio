@@ -27,7 +27,7 @@ export default function HeroSecction() {
           </Typography>
         </Box>
 
-        <Typography className="text-wrap font-sans text-gray-400 text-lg  sm:text-wrap sm:text-sm md:text-base lg:text-xl  text-left  xl:text-xl 2xl:text-xl">
+        <Typography className="text-wrap font-sans text-gray-400 text-sm   text-base md:text-lg  text-left ">
           I am Makokha Timothy, a versatile Front-End Web developer with a
           passion for crfafting exceptional web experiences .Welcome to my
           portfolio. Where i showcased my journey through the world of
@@ -36,10 +36,10 @@ export default function HeroSecction() {
           front-end and back-end technologies.allowing me to create dynamic
           ,interactive and user friendly web applications.
         </Typography>
-        <div className="flex gap-2 justify-center">
-          <IconButton className="text-white size-2xl">
+        <div className="flex gap-2 justify-start pl-10 items-center">
+          <a href="https://www.linkedin.com/in/timothy-makokha-9b7158332" target="" rel=""><IconButton className="text-white size-2xl">
             <LinkedIn />
-          </IconButton>
+          </IconButton></a>
           <IconButton className="text-white">
             <GitHub />
           </IconButton>
@@ -54,7 +54,7 @@ export default function HeroSecction() {
         <img
           src="../../../LUM_4397.jpg"
           alt="My picture"
-          className="w-full mask-r-from-40% sm:w-3/4  mask-l-from-40% h-full object-cover rounded-4xl"
+          className="w-full mask-r-from-40% sm:w-3/4  mask-l-from-40% h-3/4 object-cover rounded-4xl"
         />
       </div>
     </Box>

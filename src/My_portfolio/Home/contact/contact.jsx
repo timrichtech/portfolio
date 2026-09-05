@@ -6,7 +6,7 @@ import ContactHeader from "./ContactHeader";
 
 const Contact = () => {
   return (
-    <section id="contact" className="grid sm:grid-cols-2 gap-x-1 mt-8 mb-2">
+    <section id="contact" className="px-2 grid sm:grid-cols-2 gap-x-1 mt-8 mb-2">
       {/* text & illustration*/}
       <motion.div className="md:basis-1/5 pl-3 sm:justify-center">
         <ContactHeader />

@@ -29,7 +29,7 @@ export default function About() {
       <Box className="flex justify-center">
         <Card className="grid  justify-center shadow-none bg-inherit b-0  sm:w-full text-center  md:flex-col md:grid-cols-1 md:justify-items-center md:w-3/4">
           <CardContent className="gap-y-1.5">
-            <Typography className="sm:text-base text-gray-400  text-left font-sans text-lg md:text-xl xl:text-xl  lg:text-xl md:text-center lg:text-block text-wrap tracking-wide">
+            <Typography className=" text-gray-400  text-left font-sans text-sm md:text-lg   md:text-center lg:text-block text-wrap ">
               Hello.Im Makokha Timothy a pasionate Web developer with years of
               experience in creating staning and functional websites.I
               specialize in Front end web Development,responsive design,. My

@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 
 const ContactHeader = () => {
   return (
-    <div className="gap-y-2 flex flex-col items-start justify-center">
+    <div className="gap-y-2 flex flex-col items-start justify-center px-3">
       {/* <motion.h5
         // variants={fadeIn("up", 0.2)}
         initial="hidden"
@@ -18,15 +18,15 @@ const ContactHeader = () => {
         Say Hello !
       </Typography>
 
-      <motion.h1
+      <motion.p
         // variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.1 }}
-        className="h1 max-w-md md:w-auto md:text-wrap text-wrap font-bold"
+        className="md:text-xl text-xl max-w-md md:w-auto  md:text-wrap font-bold"
       >
         Lets Work Together.
-      </motion.h1>
+      </motion.p>
     </div>
   );
 };

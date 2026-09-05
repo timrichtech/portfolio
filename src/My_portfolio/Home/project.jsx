@@ -1,4 +1,7 @@
 import React from "react";
+import photo from "/HotelManagement.png";
+import saas from "/saas.png";
+import portfolio from "/portfolio.png";
 
 const projects = [
   // {
@@ -13,18 +16,18 @@ const projects = [
   {
     title: "Figma to react saas landing page",
     description:
-      "A modern leave management application that allows employees to submit leave requests and administrators to review and manage them.",
-    image: "../Media/pic.jpg",
+      "A modern responsive  saas landing page that allows customer to purchase a subscription, create an account for membership and view about the company.",
+    image: saas,
     technologies: ["React", "JavaScript", "Material UI"],
-    live: "#",
+    live: "",
     github: "#",
   },
   {
     title: "Hotel & Restaurant Management",
     description:
       "A SaaS management platform designed to help hotels and restaurants manage operations, subscriptions, and business activities.",
-    image: "../Media/mom_and_child.jpg",
-    technologies: ["React", "JavaScript","Django"],
+    image: photo,
+    technologies: ["React", "JavaScript", "Django"],
     live: "#",
     github: "#",
   },
@@ -32,7 +35,7 @@ const projects = [
     title: "Personal Portfolio",
     description:
       "A responsive personal portfolio website showcasing my skills, experience, projects, and contact information.",
-    image: "../Media/pic.jpg",
+    image: portfolio,
     technologies: ["React", "JavaScript", "Tailwind CSS"],
     live: "#",
     github: "#",
@@ -42,7 +45,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="project" className="py-20 px-6 bg-transparent ">
+    <section id="project" className="md:py-20 py-10 px-6 bg-transparent ">
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-14">
@@ -71,50 +74,23 @@ function Projects() {
                          transition-all duration-300 hover:-translate-y-2"
             >
               {/* Project Image */}
-              <div className="relative overflow-hidden h-56">
+              <div>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover
+                  className="w-full h-40 object-cover
                              group-hover:scale-105
                              transition-transform duration-500"
                 />
-
-                {/* Image Overlay */}
-                {/* <div
-                  className="absolute inset-0 bg-black/60 opacity-0
-                             group-hover:opacity-100 transition-opacity
-                             duration-300 flex items-center justify-center gap-4"
-                > */}
-                {/* <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-5 py-2.5 rounded-lg bg-green-600
-                               text-white font-medium hover:bg-green-700"
-                  >
-                    Live Demo
-                  </a> */}
-
-                {/* <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-5 py-2.5 rounded-lg bg-white
-                               text-gray-900 font-medium hover:bg-gray-100"
-                  >
-                    GitHub
-                  </a> */}
-                {/* </div> */}
               </div>
 
               {/* Project Content */}
-              <div className="p-6">
+              <div className="p-3 md:p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   {project.title}
                 </h3>
 
-                <p className="mt-3 text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="mt-3 text-gray-600 dark:text-gray-400 text-base ">
                   {project.description}
                 </p>
 
