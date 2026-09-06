@@ -28,7 +28,7 @@ const projects = [
       "A SaaS management platform designed to help hotels and restaurants manage operations, subscriptions, and business activities.",
     image: photo,
     technologies: ["React", "JavaScript", "Django"],
-    live: "https://hotma.netlify.app/Dev",
+    live: "",
     github: "#",
   },
   {
